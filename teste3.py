@@ -10,7 +10,7 @@ driver.get('https://www.youtube.com/')
 time.sleep(1)
 
 # DIGITANDO NO CAMPO DE BUSCA E CLICANDO EM BUSCAR
-driver.find_element(By.XPATH, '//*[@id="center"]/yt-searchbox/div[1]/form/input').send_keys('banco de dados nao relacional')
+driver.find_element(By.XPATH, '//*[@id="center"]/yt-searchbox/div[1]/form/input').send_keys('python react')
 time.sleep(2)
 driver.find_element(By.XPATH, '//*[@id="center"]/yt-searchbox/div[1]/form/input').send_keys(Keys.ENTER)
 time.sleep(5)
